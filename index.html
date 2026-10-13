@@ -1,21 +1,30 @@
 
 <!DOCTYPE html>
 <html>
-  <body style="
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.ctfassets.net/iiu58j8xnirw/22lOTUNpdzkniTGoHzojRg/147bd8c4264daf218693c1e240773577/First_Bay__Coolum_Beach__Sunshine_Coast.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
-    font-family: verdana;
+  <header style="
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: -8px -8px 15px -8px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.85);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
   ">
+  <img src="https://coastalveterinaryservices.com.au/wp-content/uploads/2026/06/coastalveterinaryservices.png"
+       alt="Coastal Veterinary Services logo"
+       style="height: 60px;">
 
-    <img src="https://coastalveterinaryservices.com.au/wp-content/uploads/2026/06/coastalveterinaryservices.png"
-         alt="Coastal Veterinary Services logo">
-
+  <nav>
     <button onclick="window.location.href='contacts.html'">Contact Us</button>
     <button onclick="window.location.href='consultroom.html'">Services</button>
     <button onclick="window.location.href='about.html'">About</button>
+  </nav>
+</header>
 
     <div style="background-color: rgba(0,0,0,0.65); padding: 15px; border-radius: 10px; margin: 15px 0;">
       <h2>Care Where Your Pet Feels Most Comfortable</h2>
