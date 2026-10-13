@@ -6,22 +6,32 @@
     <title>Coastal Veterinary Services</title>
 </head>
 
-<body style="
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://cdn.sanity.io/images/we0tdimr/production/622e25103e3f020231720e46cb96097be11ce7ee-3840x2551.jpg?w=1920&h=1080&fm=jpg&q=65');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  font-family: verdana;
-  color: white;
-">
+<header style="
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: -8px -8px 15px -8px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.85);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  ">
+  <img src="https://coastalveterinaryservices.com.au/wp-content/uploads/2026/06/coastalveterinaryservices.png"
+       alt="Coastal Veterinary Services logo"
+       style="height: 60px;">
 
-    <img src="https://coastalveterinaryservices.com.au/wp-content/uploads/2026/06/coastalveterinaryservices.png"
-         alt="Coastal Veterinary Services logo">
-
-    <div style="background-color: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px; margin: 15px 0;">
-        <h1>Coastal Veterinary Services</h1>
-        <button onclick="window.location.href='index.html'">Back to home page</button>
-    </div>
+  <nav>
+    
+  <button onclick="window.location.href='index.html'">Home</button>
+  <button onclick="window.location.href='contacts.html'">Contact Us</button>
+  <button onclick="window.location.href='consultroom.html'">Services</button>
+  <button onclick="window.location.href='about.html'">About</button>
+ </nav>
+</header>
 
     <div style="background-color: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px; margin: 15px 0;">
         <h2>Contact Us!</h2>
