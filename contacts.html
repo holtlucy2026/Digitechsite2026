@@ -45,7 +45,66 @@
         <p>Saturday: 10:00 AM - 12:30 PM</p>
         <p>Sunday - CLOSED</p>
     </div>
+<div style="background-color: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px; margin: 15px 0; color: white;">
+  <h2>Request a Booking</h2>
 
+  <style>
+    .booking-form label { display: block; margin: 12px 0 4px; }
+    .booking-form input,
+    .booking-form select,
+    .booking-form textarea {
+      width: 100%;
+      max-width: 400px;
+      padding: 8px;
+      border: none;
+      border-radius: 6px;
+      box-sizing: border-box;
+      font-family: inherit;
+    }
+  </style>
+
+  <form class="booking-form" onsubmit="return false;">
+    <label for="owner-name">Your name</label>
+    <input type="text" id="owner-name" name="owner-name">
+
+    <label for="phone">Phone number</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email">
+
+    <label for="pet-name">Pet's name</label>
+    <input type="text" id="pet-name" name="pet-name">
+
+    <label for="pet-type">Type of pet</label>
+    <select id="pet-type" name="pet-type">
+      <option value="">Please select</option>
+      <option>Dog</option>
+      <option>Cat</option>
+      <option>Other</option>
+    </select>
+
+    <label for="service">Service</label>
+    <select id="service" name="service">
+      <option value="">Please select</option>
+      <option>Coolum Beach consult rooms</option>
+      <option>Mobile vet (home visit)</option>
+      <option>End-of-life care</option>
+    </select>
+
+    <label for="date">Preferred date</label>
+    <input type="date" id="date" name="date">
+
+    <label for="time">Preferred time</label>
+    <input type="time" id="time" name="time">
+
+    <label for="notes">Reason for visit / notes</label>
+    <textarea id="notes" name="notes" rows="4"></textarea>
+
+    <br><br>
+    <button type="button">Request Booking</button>
+  </form>
+</div>
     <hr style="height: 2px; background-color: white; border: none;">
 
     <div style="background-color: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px; margin: 15px 0;">
